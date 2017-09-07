@@ -12,6 +12,7 @@ namespace WebStore.Controllers
         {
             ViewBag.Title = "Home Page";
             object o = new Object();
+
             return View();
         }
     }

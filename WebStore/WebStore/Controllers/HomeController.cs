@@ -11,8 +11,7 @@ namespace WebStore.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
-            //童年阴影:到此一游
-
+             
             return View();
         }
     }

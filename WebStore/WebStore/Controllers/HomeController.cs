@@ -11,7 +11,7 @@ namespace WebStore.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
-             
+            object o = new Object();
             return View();
         }
     }

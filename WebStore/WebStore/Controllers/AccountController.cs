@@ -26,7 +26,7 @@ namespace WebStore.Controllers
         private const string LocalLoginProvider = "Local";
         private ApplicationUserManager _userManager;
         /// <summary>
-        /// 构造方法。
+        /// 构造方法
         /// </summary>
         public AccountController()
         {

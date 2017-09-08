@@ -19,9 +19,9 @@ namespace WebStore.Controllers
         //    return "这是一个<b>测试</b>页面~~";
         //}
 
-        public string Welcome(string name = "test", int id = 1)
+        public string Welcome(string userName = "test", int id = 1)
         {
-            return HttpUtility.HtmlEncode("Hello "+name+", ID:"+id);
+            return HttpUtility.HtmlEncode("Hello "+userName+", ID:"+id);
         }
     }
 }

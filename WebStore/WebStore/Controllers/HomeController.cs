@@ -10,7 +10,7 @@ namespace WebStore.Controllers
     { 
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "Home Page（首页）";
             //object o = new Object();  
 
             return View();

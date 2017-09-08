@@ -18,6 +18,11 @@ namespace WebStore
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+            routes.MapRoute(
+                name: "Test",
+                url: "{controller}/{action}/{name}/{id}"
+                );
         }
     }
 }

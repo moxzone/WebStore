@@ -16,7 +16,7 @@ namespace WebStore.Controllers
 
         //public string index()
         //{
-        //    return "这是一个<b>测试</b>页面~~";
+        //    return "这是一个<b>试<>页面~~";
         //}
 
         public string Welcome(string userName = "test", int id = 1)

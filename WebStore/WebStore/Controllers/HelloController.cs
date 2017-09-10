@@ -8,7 +8,7 @@ namespace WebStore.Controllers
 {
     public class HelloController : Controller
     {
-        // GET: Hello
+        // GET: Hello1
         public ActionResult Index()
         {
             return View();
@@ -16,7 +16,7 @@ namespace WebStore.Controllers
 
         //public string index()
         //{
-        //    return "这是一个<b>测试</b>页面~~";
+        //    return "这是一个<b><>页面~";
         //}
 
         public string Welcome(string userName = "test", int id = 1)
